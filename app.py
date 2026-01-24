@@ -6,7 +6,9 @@ from openai import OpenAI
 app = Flask(__name__)
 
 # ===== OPENAI =====
-
+client = OpenAI(
+    api_key=os.getenv("OPENAI_API_KEY")
+)
 
 # ===== UPLOAD CONFIG =====
 UPLOAD_FOLDER = "static/uploads"
