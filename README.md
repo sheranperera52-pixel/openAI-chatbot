@@ -1,56 +1,20 @@
-# 💬 AI WhatsApp Demo (Frontend + Flask Backend)
+# 🤖 AI Python Chat App (Flask + OpenAI)
 
-## 📌 Project Overview
-**AI WhatsApp Demo** කියන්නේ WhatsApp-style chat UI එකක් + Flask backend එකක් combine කරලා හදපු **full-stack demo project** එකක්.
-
-මෙම project එකෙන්:
-- Modern chat UI design
-- Image upload handling
-- AI text reply (OpenAI API)
-- Frontend ↔ Backend communication
-
-එකම project එකක demo කරලා පෙන්වනවා.
-
-This is **not an official WhatsApp app**.  
-It is built **only for learning, demo, and portfolio purposes**.
-
----
+A simple AI-powered chat application built with **Python Flask** and **OpenAI API**.
 
 ## 🚀 Features
+- Chat with AI in real time
+- Clean UI (HTML + CSS)
+- Secure API key handling using environment variables
+- Easy to deploy on Render / Railway
 
-### 💬 Frontend (UI)
-- WhatsApp-like chat interface  
-- User / Bot message bubbles  
-- Image upload & preview  
-- Emoji picker  
-- Notepad & Calendar tools  
-- Camera access (front / back)  
-- Smart settings panel  
-- Dark mode toggle  
-- Social media quick links  
+## 🛠️ Tech Stack
+- Python 3
+- Flask
+- OpenAI API
+- HTML / CSS
 
-### 🤖 Backend (Flask + AI)
-- Flask REST API (`/chat`)
-- Image upload handling
-- OpenAI API integration
-- Text → AI response
-- JSON response to frontend
-
----
-
-## 🛠 Tech Stack
-
-### Frontend
-- HTML5  
-- CSS3  
-- Vanilla JavaScript  
-
-### Backend
-- Python 3  
-- Flask  
-- OpenAI Python SDK  
-- Werkzeug  
-
----
-
-## 📂 Project Structure
+## ⚙️ Installation (Local)
+```bash
+pip install -r requirements.txt
+python app.py
