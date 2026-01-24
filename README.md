@@ -18,3 +18,5 @@ A simple AI-powered chat application built with **Python Flask** and **OpenAI AP
 ```bash
 pip install -r requirements.txt
 python app.py
+## 👨‍💻 Author
+Sheran Perera
